@@ -11,3 +11,7 @@
 Для вставки диаграммы используйте синтаксис из примера ниже, заметете, что необходимо указать ссылку на файл в репозитории.
 
 @drawio{https://github.com/bndroll/mdb/blob/master/src/diagrams/qwe.drawio}
+
+@drawio{https://github.com/zimkov/system-engineering-playbook/blob/main/src/diagrams/c4-mirage.drawio}
+
+@drawio{https://github.com/zimkov/system-engineering-playbook/blob/main/src/diagrams/mirage.drawio}
