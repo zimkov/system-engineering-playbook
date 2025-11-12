@@ -1,0 +1,474 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram name="Страница — 1" id="rCp7V-pcJArdkj3yDJ81">
+    <mxGraphModel dx="2079" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4WOscS42OM0MwaNviyD0-59" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-210" width="430" height="820" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-47" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="70" width="320" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-4" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4WOscS42OM0MwaNviyD0-1" target="4WOscS42OM0MwaNviyD0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.174;entryY=0.881;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4WOscS42OM0MwaNviyD0-1" target="4WOscS42OM0MwaNviyD0-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4WOscS42OM0MwaNviyD0-1" target="4WOscS42OM0MwaNviyD0-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4WOscS42OM0MwaNviyD0-1" target="4WOscS42OM0MwaNviyD0-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.962;entryY=0.693;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4WOscS42OM0MwaNviyD0-1" target="4WOscS42OM0MwaNviyD0-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-34" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4WOscS42OM0MwaNviyD0-1" target="4WOscS42OM0MwaNviyD0-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-46" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4WOscS42OM0MwaNviyD0-1" target="4WOscS42OM0MwaNviyD0-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-126" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4WOscS42OM0MwaNviyD0-1" target="4WOscS42OM0MwaNviyD0-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-1" value="Оператор наземной станции" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="400" width="35" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-3" value="Просмотр видеотрансляции с камеры дрона" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="340" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="4WOscS42OM0MwaNviyD0-5" target="4WOscS42OM0MwaNviyD0-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-11" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4WOscS42OM0MwaNviyD0-10">
+          <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-5" value="Взаимодействие с картой местности" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="520" y="255" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-7" value="Составление маршрута полета дрона" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="681" y="155" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-9" value="Загрузка карты местности" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="531" y="115" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=0.944;exitY=0.335;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.394;entryY=0.983;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4WOscS42OM0MwaNviyD0-5" target="4WOscS42OM0MwaNviyD0-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="711" y="310" as="sourcePoint" />
+            <mxPoint x="716" y="245" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-13" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4WOscS42OM0MwaNviyD0-12">
+          <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-14" value="Запуск миссии" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="520" y="350" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-16" value="Просмотр результатов миссии" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="520" y="450" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-18" value="Просмотр текущего состояния дрона" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="230" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-20" value="Просмотр координат x, y" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="200" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-21" value="Просмотр высоты" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="100" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-22" value="Просмотр заряда батареи" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="10" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-23" value="Просмотр ошибок" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="290" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=1.001;entryY=0.353;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.097;exitY=0.809;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4WOscS42OM0MwaNviyD0-18" target="4WOscS42OM0MwaNviyD0-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="225" as="sourcePoint" />
+            <mxPoint x="155" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-25" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4WOscS42OM0MwaNviyD0-24">
+          <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.995;entryY=0.62;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.456;exitY=0.031;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4WOscS42OM0MwaNviyD0-18" target="4WOscS42OM0MwaNviyD0-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="190" as="sourcePoint" />
+            <mxPoint x="275" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-27" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4WOscS42OM0MwaNviyD0-26">
+          <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.95;entryY=0.687;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.232;exitY=0.042;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4WOscS42OM0MwaNviyD0-18" target="4WOscS42OM0MwaNviyD0-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="255" as="sourcePoint" />
+            <mxPoint x="315" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-30" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4WOscS42OM0MwaNviyD0-29">
+          <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-31" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4WOscS42OM0MwaNviyD0-18" target="4WOscS42OM0MwaNviyD0-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="265" as="sourcePoint" />
+            <mxPoint x="325" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-32" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4WOscS42OM0MwaNviyD0-31">
+          <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-33" value="Отправка команд управления на дрон" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="550" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-35" value="Отправка команды &quot;ARM&quot;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="560" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-36" value="Отправка команды &quot;DISARM&quot;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="647" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-37" value="Отправка команды &quot;TAKEOFF&quot;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="390" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-38" value="Отправка команды &quot;LAND&quot;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="475" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-39" value="Отправка команды &quot;GOTO&quot;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="730" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-45" value="Переключение между дронами в локальной сети" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="440" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-49" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.95;entryY=0.687;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4WOscS42OM0MwaNviyD0-33" target="4WOscS42OM0MwaNviyD0-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="775" as="sourcePoint" />
+            <mxPoint x="-20" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-50" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4WOscS42OM0MwaNviyD0-49">
+          <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-51" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.982;entryY=0.576;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.11;exitY=0.153;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4WOscS42OM0MwaNviyD0-33" target="4WOscS42OM0MwaNviyD0-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="925" as="sourcePoint" />
+            <mxPoint x="440" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-52" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4WOscS42OM0MwaNviyD0-51">
+          <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-53" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=1.02;entryY=0.512;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.011;exitY=0.592;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4WOscS42OM0MwaNviyD0-33" target="4WOscS42OM0MwaNviyD0-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="146" y="723" as="sourcePoint" />
+            <mxPoint x="40" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-54" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4WOscS42OM0MwaNviyD0-53">
+          <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-55" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=1.026;entryY=0.488;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.146;exitY=0.896;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4WOscS42OM0MwaNviyD0-33" target="4WOscS42OM0MwaNviyD0-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="196" y="723" as="sourcePoint" />
+            <mxPoint x="90" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-56" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4WOscS42OM0MwaNviyD0-55">
+          <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-57" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.989;entryY=0.341;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.306;exitY=0.987;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4WOscS42OM0MwaNviyD0-33" target="4WOscS42OM0MwaNviyD0-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="166" y="723" as="sourcePoint" />
+            <mxPoint x="60" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-58" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4WOscS42OM0MwaNviyD0-57">
+          <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-60" value="Дрон-охранник" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-61" value="Дрон-разведчик" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="70" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-62" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="1040" width="430" height="890" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-63" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1110" width="380" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-64" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4WOscS42OM0MwaNviyD0-71" target="4WOscS42OM0MwaNviyD0-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-65" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.174;entryY=0.881;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4WOscS42OM0MwaNviyD0-71" target="4WOscS42OM0MwaNviyD0-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-66" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4WOscS42OM0MwaNviyD0-71" target="4WOscS42OM0MwaNviyD0-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-67" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4WOscS42OM0MwaNviyD0-71" target="4WOscS42OM0MwaNviyD0-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-68" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.962;entryY=0.693;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4WOscS42OM0MwaNviyD0-71" target="4WOscS42OM0MwaNviyD0-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-69" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4WOscS42OM0MwaNviyD0-71" target="4WOscS42OM0MwaNviyD0-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-121" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4WOscS42OM0MwaNviyD0-71" target="4WOscS42OM0MwaNviyD0-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-71" value="Дрон" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1440" width="35" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-72" value="Трансляция видео с камеры дрона в локальной сети" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1435" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-73" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="4WOscS42OM0MwaNviyD0-75" target="4WOscS42OM0MwaNviyD0-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-74" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4WOscS42OM0MwaNviyD0-73">
+          <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-75" value="Полет по заданому маршруту" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1295" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-76" value="Полет по точкам на карте" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="681" y="1195" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-77" value="Облет препятствий с возвращением на линию маршрута" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="531" y="1155" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-78" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=0.944;exitY=0.335;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.394;entryY=0.983;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4WOscS42OM0MwaNviyD0-75" target="4WOscS42OM0MwaNviyD0-76">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="711" y="1350" as="sourcePoint" />
+            <mxPoint x="716" y="1285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-79" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4WOscS42OM0MwaNviyD0-78">
+          <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-80" value="Определение положения при помощи Optical Flow" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1390" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-81" value="Анализ видеопотока при помощи машинного зрения" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1490" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-82" value="Передача информации о текущем состоянии дрона на НС" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1270" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-83" value="Передача координат x, y" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="1240" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-84" value="Передача информации о высоте" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="1140" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-85" value="Передача информации о заряде батареи" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="1050" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-86" value="Передача информации об ошибках" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="1330" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-87" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=1.001;entryY=0.353;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.097;exitY=0.809;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4WOscS42OM0MwaNviyD0-82" target="4WOscS42OM0MwaNviyD0-86">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="1265" as="sourcePoint" />
+            <mxPoint x="155" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-88" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4WOscS42OM0MwaNviyD0-87">
+          <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-89" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.995;entryY=0.62;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.456;exitY=0.031;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4WOscS42OM0MwaNviyD0-82" target="4WOscS42OM0MwaNviyD0-85">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="1230" as="sourcePoint" />
+            <mxPoint x="275" y="1165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-90" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4WOscS42OM0MwaNviyD0-89">
+          <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-91" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.95;entryY=0.687;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.232;exitY=0.042;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4WOscS42OM0MwaNviyD0-82" target="4WOscS42OM0MwaNviyD0-84">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="1295" as="sourcePoint" />
+            <mxPoint x="315" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-92" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4WOscS42OM0MwaNviyD0-91">
+          <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-93" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4WOscS42OM0MwaNviyD0-82" target="4WOscS42OM0MwaNviyD0-83">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="1305" as="sourcePoint" />
+            <mxPoint x="325" y="1240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-94" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4WOscS42OM0MwaNviyD0-93">
+          <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-95" value="Обработка и выполнение команд управления" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1590" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-96" value="Выполнение&amp;nbsp;команды &quot;ARM&quot;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="1600" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-97" value="Выполнение&amp;nbsp;команды &quot;DISARM&quot;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="1687" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-98" value="Выполнение команды &quot;TAKEOFF&quot;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="1430" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-99" value="Выполнение&amp;nbsp;команды &quot;LAND&quot;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="1515" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-100" value="Выполнение&amp;nbsp;команды &quot;GOTO&quot;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="1770" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-102" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.95;entryY=0.687;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4WOscS42OM0MwaNviyD0-95" target="4WOscS42OM0MwaNviyD0-98">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="1815" as="sourcePoint" />
+            <mxPoint x="-20" y="1640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-103" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4WOscS42OM0MwaNviyD0-102">
+          <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-104" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.982;entryY=0.576;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.11;exitY=0.153;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4WOscS42OM0MwaNviyD0-95" target="4WOscS42OM0MwaNviyD0-99">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="1965" as="sourcePoint" />
+            <mxPoint x="440" y="1790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-105" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4WOscS42OM0MwaNviyD0-104">
+          <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-106" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=1.02;entryY=0.512;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.011;exitY=0.592;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4WOscS42OM0MwaNviyD0-95" target="4WOscS42OM0MwaNviyD0-96">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="146" y="1763" as="sourcePoint" />
+            <mxPoint x="40" y="1720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-107" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4WOscS42OM0MwaNviyD0-106">
+          <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-108" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=1.026;entryY=0.488;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.146;exitY=0.896;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4WOscS42OM0MwaNviyD0-95" target="4WOscS42OM0MwaNviyD0-97">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="196" y="1763" as="sourcePoint" />
+            <mxPoint x="90" y="1720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-109" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4WOscS42OM0MwaNviyD0-108">
+          <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-110" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.989;entryY=0.341;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.306;exitY=0.987;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4WOscS42OM0MwaNviyD0-95" target="4WOscS42OM0MwaNviyD0-100">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="166" y="1763" as="sourcePoint" />
+            <mxPoint x="60" y="1720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-111" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4WOscS42OM0MwaNviyD0-110">
+          <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-112" value="Дрон-охранник" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1040" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-113" value="Дрон-разведчик" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1110" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-114" value="Сохранение фотографии" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="740" y="1490" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-115" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="4WOscS42OM0MwaNviyD0-114" source="4WOscS42OM0MwaNviyD0-81">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="643" y="1530" as="sourcePoint" />
+            <mxPoint x="716" y="1495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-116" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4WOscS42OM0MwaNviyD0-115">
+          <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-117" value="Сохранение координат" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="740" y="1390" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-118" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=0.888;exitY=0.152;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="4WOscS42OM0MwaNviyD0-117" source="4WOscS42OM0MwaNviyD0-81">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="1495" as="sourcePoint" />
+            <mxPoint x="743" y="1460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-119" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4WOscS42OM0MwaNviyD0-118">
+          <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-120" value="Анализ видеопотока при помощи машинного зрения" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1710" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-122" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.506;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.506;exitY=0.994;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4WOscS42OM0MwaNviyD0-120" target="4WOscS42OM0MwaNviyD0-124">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="136" y="1790" as="sourcePoint" />
+            <mxPoint x="130" y="1922" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-123" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4WOscS42OM0MwaNviyD0-122">
+          <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-124" value="Отправка оповещения на НС при обнаружении" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1830" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4WOscS42OM0MwaNviyD0-125" value="Получение оповещений об обнаруженных объектах" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="60" y="690" width="130" height="75" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
