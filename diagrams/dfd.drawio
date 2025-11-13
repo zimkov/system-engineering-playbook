@@ -1,0 +1,154 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram name="Страница — 1" id="52oQtHzrylJbTVmEuKrk">
+    <mxGraphModel dx="2308" dy="1490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ch5P-qezhdClwX1BxKx4-1" target="Ch5P-qezhdClwX1BxKx4-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-1" value="Оператор наземной станции" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="390" y="60" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ch5P-qezhdClwX1BxKx4-6" target="Ch5P-qezhdClwX1BxKx4-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ch5P-qezhdClwX1BxKx4-6" target="Ch5P-qezhdClwX1BxKx4-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-6" value="Хранилище карт&lt;div&gt;(Наземная станция)&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" vertex="1" parent="1">
+          <mxGeometry x="137" y="765" width="133.33" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ch5P-qezhdClwX1BxKx4-7" target="Ch5P-qezhdClwX1BxKx4-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-7" value="Модуль отправки команд управления (Web интерфейс React)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="190" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ch5P-qezhdClwX1BxKx4-10" target="Ch5P-qezhdClwX1BxKx4-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-10" value="Хранилище миссий&lt;div&gt;(Наземная станция)&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" vertex="1" parent="1">
+          <mxGeometry x="557" y="765" width="133.33" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ch5P-qezhdClwX1BxKx4-11" target="Ch5P-qezhdClwX1BxKx4-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-11" value="Модуль автопилота&lt;div&gt;(API Raspberry Pi)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="310" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-19" value="Полетный контроллер" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="390" y="440" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ch5P-qezhdClwX1BxKx4-22" target="Ch5P-qezhdClwX1BxKx4-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-22" value="Оператор наземной станции" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="347" y="620" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ch5P-qezhdClwX1BxKx4-24" target="Ch5P-qezhdClwX1BxKx4-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-24" value="Модуль работы с картой (Web интерфейс React)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="347" y="750" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ch5P-qezhdClwX1BxKx4-26" target="Ch5P-qezhdClwX1BxKx4-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-26" value="Модуль автопилота&lt;div&gt;(API Raspberry Pi)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="347" y="870" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-27" value="Полетный контроллер" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="347" y="1000" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ch5P-qezhdClwX1BxKx4-30" target="Ch5P-qezhdClwX1BxKx4-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-30" value="Хранилище миссий (Raspberry Pi)" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" vertex="1" parent="1">
+          <mxGeometry x="557" y="885" width="133.33" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ch5P-qezhdClwX1BxKx4-31" target="Ch5P-qezhdClwX1BxKx4-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-31" value="Хранилище карт&lt;div&gt;(Raspberry Pi)&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" vertex="1" parent="1">
+          <mxGeometry x="137" y="885" width="133.33" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ch5P-qezhdClwX1BxKx4-36" target="Ch5P-qezhdClwX1BxKx4-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-36" value="Хранилище карт&lt;div&gt;(Raspberry Pi)&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="325" width="133.33" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-38" value="Оператор наземной станции" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="15" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ch5P-qezhdClwX1BxKx4-39" target="Ch5P-qezhdClwX1BxKx4-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-39" value="Модуль видеотрансляции (Web интерфейс React)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="145" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ch5P-qezhdClwX1BxKx4-41" target="Ch5P-qezhdClwX1BxKx4-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-41" value="Камера" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="515" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ch5P-qezhdClwX1BxKx4-42" target="Ch5P-qezhdClwX1BxKx4-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ch5P-qezhdClwX1BxKx4-42" target="Ch5P-qezhdClwX1BxKx4-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-42" value="Нейросеть Yolo ObjectDetection&lt;div&gt;(Raspberry Pi)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="385" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ch5P-qezhdClwX1BxKx4-43" target="Ch5P-qezhdClwX1BxKx4-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-43" value="WebRTC&lt;div&gt;(Raspberry Pi)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="265" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-44" value="Хранилище объектов интереса&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(Raspberry Pi)&lt;/span&gt;" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="400" width="133.33" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-50" value="Оператор наземной станции" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-570" y="690" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ch5P-qezhdClwX1BxKx4-52" target="Ch5P-qezhdClwX1BxKx4-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-52" value="Модуль подключения к дрону&lt;div&gt;(Web интерфейс React)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-570" y="810" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ch5P-qezhdClwX1BxKx4-54" target="Ch5P-qezhdClwX1BxKx4-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-54" value="Камера" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-570" y="1050" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ch5P-qezhdClwX1BxKx4-57" target="Ch5P-qezhdClwX1BxKx4-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ch5P-qezhdClwX1BxKx4-57" target="Ch5P-qezhdClwX1BxKx4-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ch5P-qezhdClwX1BxKx4-57" target="Ch5P-qezhdClwX1BxKx4-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-57" value="Optical Flow&lt;br&gt;&lt;div&gt;(Raspberry Pi)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-570" y="930" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-62" value="Полетный контроллер" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="930" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-65" value="Модуль автопилота&lt;div&gt;(API Raspberry Pi)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="930" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch5P-qezhdClwX1BxKx4-68" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;b&gt;Data Flow Diagram (DFD)&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-93.33" y="15" width="260" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
