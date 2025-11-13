@@ -4,6 +4,3 @@
 - [C4](./c4.md)
 - [UML](./uml.md)
 - [DFD](./dfd.md)
-- [Конфигурация проекта](./md.md)
-- [Пример использования Drawio](./drawio.md)
-- [Пример использования Swagger](./swagger.md)
