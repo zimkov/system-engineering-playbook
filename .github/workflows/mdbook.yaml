@@ -34,7 +34,6 @@ jobs:
           cd _tools/mdbook-drawio
           cargo build --release
           sudo cp target/release/mdbook-drawio /usr/local/bin/
-          mdbook-drawio supports html || true
 
       - name: Build Book
         run: mdbook build
