@@ -1,6 +1,6 @@
 [book]
 authors = ["Jho00"]
-language = "en"
+language = "ru"
 src = "src"
 title = "system-engineering-playbook"
 
@@ -10,6 +10,9 @@ create-missing = true
 
 [preprocessor.drawio]
 command = "mdbook-drawio"
+# Добавляем обязательные параметры конфигурации
+enabled = true
+renderers = ["html"]  # Указываем, для каких рендереров работает preprocessor
 
 [output.html]
 additional-css = ["src/_assets/custom.css"]
