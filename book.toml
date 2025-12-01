@@ -10,7 +10,6 @@ create-missing = true
 
 [preprocessor.drawio]
 command = "mdbook-drawio"
-renderers = ["html"]
 
 [output.html]
 additional-css = ["src/_assets/custom.css"]
