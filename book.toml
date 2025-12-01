@@ -1,6 +1,6 @@
 [book]
 authors = ["Jho00"]
-language = "en"
+language = "ru"
 src = "src"
 title = "system-engineering-playbook"
 
@@ -10,6 +10,7 @@ create-missing = true
 
 [preprocessor.drawio]
 command = "mdbook-drawio"
+renderers = ["html"]
 
 [output.html]
 additional-css = ["src/_assets/custom.css"]
