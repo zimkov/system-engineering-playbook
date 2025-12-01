@@ -4,3 +4,4 @@
 - [C4](./c4.md)
 - [UML](./uml.md)
 - [DFD](./dfd.md)
+- [Swagger](./swagger.md)
