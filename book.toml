@@ -1,6 +1,7 @@
 [book]
 authors = ["Jho00"]
-language = "ru"
+language = "en"
+multilingual = false
 src = "src"
 title = "system-engineering-playbook"
 
