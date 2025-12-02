@@ -1,8 +1,8 @@
 [book]
-authors = ["Jho00"]
+authors = ["zimkov"]
 language = "ru"
 src = "src"
-title = "system-engineering-playbook"
+title = "Система автономного позиционирования и управления БПЛА без GPS"
 
 [build]
 build-dir = "book"
