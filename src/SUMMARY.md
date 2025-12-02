@@ -5,4 +5,5 @@
 - [UML](./uml.md)
 - [DFD](./dfd.md)
 - [BPMN](./bpmn.md)
+- [ADR](./adr.md)
 - [Swagger](./swagger.md)
