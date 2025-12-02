@@ -1,0 +1,354 @@
+<!DOCTYPE HTML>
+<html lang="ru" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>ADR - Система автономного позиционирования и управления БПЛА без GPS</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="highlight-css" href="highlight.css">
+        <link rel="stylesheet" id="tomorrow-night-css" href="tomorrow-night.css">
+        <link rel="stylesheet" id="ayu-highlight-css" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="src/_assets/custom.css">
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "searchindex.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Система автономного позиционирования и управления БПЛА без GPS</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <i class="fa fa-spinner fa-spin"></i>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="architectural-decision-records-adr"><a class="header" href="#architectural-decision-records-adr">Architectural Decision Records (ADR)</a></h1>
+<h2 id="1-Выбор-модели-ИИ-yolov8-nano"><a class="header" href="#1-Выбор-модели-ИИ-yolov8-nano">1. Выбор модели ИИ: YOLOv8 Nano</a></h2>
+<p>Статус: Принято
+Контекст:
+Требуется детектировать объекты в реальном времени на бортовом компьютере с ограниченными ресурсами (Raspberry Pi 5) в условиях отсутствия GPS. Критичны низкая задержка инференса и энергоэффективность.
+Варианты:</p>
+<ul>
+<li>SSD MobileNet V2: Меньше точность для мелких объектов (mAP@0.5 = 0.65), но быстрее на CPU.</li>
+<li>TinyYOLOv4: Выше скорость (45 FPS на CPU), но низкая точность (mAP@0.5 = 0.58).</li>
+<li>YOLOv8 Nano: Баланс mAP@0.5 = 0.75 и скорости (30 FPS на AI-ускорителе).</li>
+</ul>
+<p>Выбор: YOLOv8 Nano + ONNX-рантайм.
+Обоснование:</p>
+<ul>
+<li>Поддержка экспорта в ONNX, оптимизированного для нейроускорителей (AI HAT).</li>
+<li>Высокая точность детекции объектов даже при низком разрешении (320x320 пикселей).</li>
+<li>Активное сообщество и готовые инструменты для дообучения под специфические сценарии (разведка, сопровождение).</li>
+</ul>
+<p>Последствия:
+(+) Энергопотребление сокращено на 40% по сравнению с CPU-only инференсом.
+(-) Требует калибровки под конкретные условия освещения через fine-tuning.</p>
+<h2 id="2-Аппаратная-платформа-raspberry-pi-5--ai-ускоритель-coral-tpu"><a class="header" href="#2-Аппаратная-платформа-raspberry-pi-5--ai-ускоритель-coral-tpu">2. Аппаратная платформа: Raspberry Pi 5 + AI-ускоритель (Coral TPU)</a></h2>
+<p>Статус: Принято
+Контекст:
+Необходим баланс между вычислительной мощностью, энергопотреблением и стоимостью для автономного дрона.
+Варианты:</p>
+<ul>
+<li>Raspberry Pi 4 + CPU-only: Недостаточно мощности для YOLOv8 (12 FPS).</li>
+<li>NVIDIA Jetson Nano: Выше производительность (60 FPS), но энергопотребление 15 Вт (против 8 Вт у Pi 5).</li>
+<li>Raspberry Pi 5 + Coral TPU USB: 30 FPS при 10 Вт с возможностью замены ускорителя.</li>
+</ul>
+<p>Выбор: Raspberry Pi 5 + Coral TPU.
+Обоснование:</p>
+<ul>
+<li>Шина PCIe 2.0 на Pi 5 обеспечивает пропускную способность до 4 Гбит/с для ускорителя.</li>
+<li>Coral TPU оптимизирован для квантованных моделей (INT8), что критично для энергосбережения.</li>
+<li>Стоимость решения в 2 раза ниже Jetson Nano.</li>
+</ul>
+<p>Последствия:
+(+) Возможность горячей замены AI-модуля при переходе на новые чипы (например, Google Edge TPU).
+(-) Ограниченная память TPU (8 МБ) требует оптимизации размера модели.</p>
+<h2 id="3-Хранение-данных-Файловая-система-вместо-СУБД"><a class="header" href="#3-Хранение-данных-Файловая-система-вместо-СУБД">3. Хранение данных: Файловая система вместо СУБД</a></h2>
+<p>Статус: Принято
+Контекст:
+Требуется хранить миссии (точки маршрута, сценарии) и карты окружения на борту дрона.
+Варианты:</p>
+<ul>
+<li>SQLite: Целостность данных через транзакции, но накладные расходы на запуск демона (15 МБ RAM).</li>
+<li>Redis: Низкая задержка, но требует постоянного питания для сохранения данных.</li>
+<li>Файловая система (JSON + PNG): Прямой доступ через Python, минимальное потребление памяти.</li>
+</ul>
+<p>Выбор: Файловая система с атомарной записью.
+Обоснование:</p>
+<ul>
+<li>Миссии изменяются редко (1-2 раза за полет), поэтому нет нужды в ACID-свойствах.</li>
+<li>Карта окружения хранится как PNG-файл — стандартный формат для обработки в OpenCV и отображения на наземной станции.</li>
+<li>Отказ от СУБД снижает энергопотребление на 18% за счет отсутствия фоновых процессов.</li>
+</ul>
+<p>Последствия:
+(+) Упрощенная отладка: файлы можно напрямую читать/писать через SSH.
+(-) Риск повреждения данных при аварийном отключении (смягчается через запись в tmpfs перед синхронизацией).</p>
+<h2 id="4-Коммуникация-ethernet-в-режиме-Дрон-охранник"><a class="header" href="#4-Коммуникация-ethernet-в-режиме-Дрон-охранник">4. Коммуникация: Ethernet в режиме «Дрон-охранник»</a></h2>
+<p>Статус: Принято
+Контекст:
+Сценарий «дрон-фонарь» требует стабильного соединения для коррекции позиции при сильном ветре.
+Варианты:</p>
+<ul>
+<li>Wi-Fi 5 ГГц: Высокая пропускная способность, но задержка до 200 мс при помехах.</li>
+<li>LoRa: Низкое энергопотребление, но недостаточная скорость для видео.</li>
+<li>Ethernet через PoE: Фиксированная задержка 2 мс, питание по тому же кабелю.</li>
+</ul>
+<p>Выбор: Ethernet с поддержкой Power over Ethernet (PoE).
+Обоснование:</p>
+<ul>
+<li>В проводном режиме дрон физически привязан к базе (сценарий «на проводе»), что делает Ethernet практичным решением.</li>
+<li>Пропускная способность 100 Мбит/с позволяет передавать видео 720p30 + телеметрию без потерь.</li>
+<li>PoE исключает необходимость отдельного аккумулятора для Raspberry Pi 5.</li>
+</ul>
+<p>Последствия:
+(+) Гарантированное качество связи даже в условиях промышленных помех.
+(-) Ограничивает мобильность дрона в этом сценарии (только стационарное применение).</p>
+<h2 id="5-Видеотрансляция-webrtc"><a class="header" href="#5-Видеотрансляция-webrtc">5. Видеотрансляция: WebRTC</a></h2>
+<p>Статус: Принято
+Контекст:
+Требуется передача видеопотока с минимальной задержкой (&lt;500 мс) для сценариев «дрон-сопроводитель» и «дрон-разведчик».
+Варианты:</p>
+<ul>
+<li>RTMP: Поддержка OBS, но задержка 3-5 секунд.</li>
+<li>RTP/UDP: Низкая задержка (100 мс), но отсутствие адаптации к пропускной способности сети.</li>
+<li>WebRTC: Адаптивный битрейт, NAT traversal, поддержка P2P-соединений.</li>
+</ul>
+<p>Выбор: WebRTC с кастомным STUN-сервером в локальной сети.
+Обоснование:</p>
+<ul>
+<li>Автоматическая подстройка разрешения при потере пакетов (критично для Wi-Fi в полевых условиях).</li>
+<li>Широкая поддержка в браузерах наземной станции (Chrome, Firefox) без установки ПО.</li>
+<li>Интеграция с GStreamer на Raspberry Pi 5 через плагин webrtcbin.</li>
+</ul>
+<p>Последствия:
+(+) Снижение задержки до 300 мс в локальной сети против 1.2 с у RTMP.
+(-) Увеличение CPU-нагрузки на 25% из-за шифрования SRTP.</p>
+<h2 id="6-Протокол-управления-mavlink-поверх-uart"><a class="header" href="#6-Протокол-управления-mavlink-поверх-uart">6. Протокол управления: MAVLink поверх UART</a></h2>
+<p>Статус: Принято
+Контекст:
+Требуется надежный обмен командами между Raspberry Pi 5 и полетным контроллером (Pixhawk).
+Варианты:</p>
+<ul>
+<li>Собственный протокол по UART: Минимальные накладные расходы, но отсутствие стандартов.</li>
+<li>MAVLink over UDP: Поддержка QGroundControl, но риск потери пакетов в Wi-Fi.</li>
+<li>MAVLink over UART: Стандартизированный протокол с CRC-проверкой, гарантированная доставка.</li>
+</ul>
+<p>Выбор: MAVLink 2.0 поверх аппаратного UART.
+Обоснование:</p>
+<ul>
+<li>Аппаратный UART обеспечивает скорость 921600 бод с нулевой потерей пакетов на расстоянии до 1.5 м (внутри корпуса дрона).</li>
+<li>MAVLink предоставляет готовые сообщения для армирования (MAV_CMD_COMPONENT_ARM_DISARM), взлета (MAV_CMD_NAV_TAKEOFF) и точек маршрута (MISSION_ITEM).</li>
+<li>Совместимость с PX4 и ArduPilot упрощает замену полетного контроллера.</li>
+</ul>
+<p>Последствия:
+(+) Сокращение времени разработки за счет использования готовых библиотек (DroneKit, pymavlink).
+(-) Необходимость реализации таймаутов для обработки зависаний (реализовано через watchdog-таймер на Pi 5).</p>
+<h2 id="Итоговая-архитектура"><a class="header" href="#Итоговая-архитектура">Итоговая архитектура</a></h2>
+<p>Выбор решений сфокусирован на минимизации энергопотребления и максимизации отказоустойчивости в условиях отсутствия GPS. Отказ от тяжелых СУБД и Wi-Fi в критичных сценариях компенсируется простотой файловой системы и проводного соединения. WebRTC и YOLOv8 Nano обеспечивают баланс между производительностью и функциональностью для задач автономной навигации.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="bpmn.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="swagger.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="bpmn.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="swagger.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+
+    </div>
+    </body>
+</html>
