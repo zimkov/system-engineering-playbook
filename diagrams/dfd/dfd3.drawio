@@ -1,0 +1,52 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram name="Страница — 1" id="JcPfSV_vypeHdFRTpoLj">
+    <mxGraphModel dx="1090" dy="1185" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EqOZBWX-lnGoyea7jg0v-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EqOZBWX-lnGoyea7jg0v-2" target="EqOZBWX-lnGoyea7jg0v-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EqOZBWX-lnGoyea7jg0v-2" value="Оператор наземной станции" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="380" y="410" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EqOZBWX-lnGoyea7jg0v-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EqOZBWX-lnGoyea7jg0v-4" target="EqOZBWX-lnGoyea7jg0v-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EqOZBWX-lnGoyea7jg0v-4" value="Модуль отправки команд управления (Web интерфейс React)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="540" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EqOZBWX-lnGoyea7jg0v-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EqOZBWX-lnGoyea7jg0v-6" target="EqOZBWX-lnGoyea7jg0v-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EqOZBWX-lnGoyea7jg0v-6" value="Модуль автопилота&lt;div&gt;(API Raspberry Pi)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="660" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EqOZBWX-lnGoyea7jg0v-7" value="Полетный контроллер" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="380" y="790" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EqOZBWX-lnGoyea7jg0v-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EqOZBWX-lnGoyea7jg0v-9" target="EqOZBWX-lnGoyea7jg0v-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EqOZBWX-lnGoyea7jg0v-9" value="Хранилище карт&lt;div&gt;(Raspberry Pi)&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="675" width="133.33" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EqOZBWX-lnGoyea7jg0v-10" value="Координаты x, y + Команды управления" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="480" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EqOZBWX-lnGoyea7jg0v-11" value="Карта местности" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="670" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EqOZBWX-lnGoyea7jg0v-12" value="Координаты x, y + Команды управления" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="610" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EqOZBWX-lnGoyea7jg0v-13" value="Команды MAVLink" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="735" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EqOZBWX-lnGoyea7jg0v-14" value="&lt;div style=&quot;color: #cccccc;background-color: #1f1f1f;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 20px;line-height: 27px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;Управление дроном в режиме Дрон-охранник&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="320" width="470" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

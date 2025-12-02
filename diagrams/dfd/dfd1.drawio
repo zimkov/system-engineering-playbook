@@ -1,0 +1,61 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram name="Страница — 1" id="3MMx5oztQYZuWD5WpKnO">
+    <mxGraphModel dx="1282" dy="1394" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WT3MnYgOHbS_sjsM-YNZ-1" value="Оператор наземной станции" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="332" y="395" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WT3MnYgOHbS_sjsM-YNZ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WT3MnYgOHbS_sjsM-YNZ-3" target="WT3MnYgOHbS_sjsM-YNZ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WT3MnYgOHbS_sjsM-YNZ-3" value="Модуль подключения к дрону&lt;div&gt;(Web интерфейс React)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="332" y="515" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WT3MnYgOHbS_sjsM-YNZ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WT3MnYgOHbS_sjsM-YNZ-5" target="WT3MnYgOHbS_sjsM-YNZ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WT3MnYgOHbS_sjsM-YNZ-5" value="Камера" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="332" y="755" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WT3MnYgOHbS_sjsM-YNZ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WT3MnYgOHbS_sjsM-YNZ-9" target="WT3MnYgOHbS_sjsM-YNZ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WT3MnYgOHbS_sjsM-YNZ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WT3MnYgOHbS_sjsM-YNZ-9" target="WT3MnYgOHbS_sjsM-YNZ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WT3MnYgOHbS_sjsM-YNZ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WT3MnYgOHbS_sjsM-YNZ-9" target="WT3MnYgOHbS_sjsM-YNZ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WT3MnYgOHbS_sjsM-YNZ-9" value="Optical Flow&lt;br&gt;&lt;div&gt;(Raspberry Pi)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="332" y="635" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WT3MnYgOHbS_sjsM-YNZ-10" value="Полетный контроллер" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="612" y="635" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WT3MnYgOHbS_sjsM-YNZ-11" value="Модуль автопилота&lt;div&gt;(API Raspberry Pi)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="635" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WT3MnYgOHbS_sjsM-YNZ-12" value="Видеопоток" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="402" y="725" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WT3MnYgOHbS_sjsM-YNZ-13" value="Координаты x, y" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="488.5" y="645" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WT3MnYgOHbS_sjsM-YNZ-14" value="Координаты x, y" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="222" y="645" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WT3MnYgOHbS_sjsM-YNZ-15" value="Координаты x, y" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="402" y="600" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WT3MnYgOHbS_sjsM-YNZ-16" value="Координаты x, y" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="402" y="480" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WT3MnYgOHbS_sjsM-YNZ-17" value="&lt;div style=&quot;color: #cccccc;background-color: #1f1f1f;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 20px;line-height: 27px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;Определение координат при помощи алгоритма Optical Flow&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="122" y="320" width="560" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

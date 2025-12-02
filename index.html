@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>ТЗ - system-engineering-playbook</title>
+        <title>ТЗ - Система автономного позиционирования и управления БПЛА без GPS</title>
 
 
         <!-- Custom HTML head -->
@@ -139,7 +139,7 @@
                         </button>
                     </div>
 
-                    <h1 class="menu-title">system-engineering-playbook</h1>
+                    <h1 class="menu-title">Система автономного позиционирования и управления БПЛА без GPS</h1>
 
                     <div class="right-buttons">
                         <a href="print.html" title="Print this book" aria-label="Print this book">
@@ -230,6 +230,13 @@
 <tr><td>Система</td><td>Автономно навигирует, распознаёт объекты, сохраняет данные, передаёт информацию на НС</td></tr>
 </tbody></table>
 </div>
+<p>Основными функциями системы являются:</p>
+<ol>
+<li>Определение координат при помощи алгоритма Optical Flow</li>
+<li>Трансляция обработанного нейросетью видеопотока на наземную станцию при помощи WebRTC</li>
+<li>Управление дроном в режиме Дрон-охранник</li>
+<li>Создание и выполнение полетных заданий в режиме Дрон-разведчик</li>
+</ol>
 <h3 id="23-Ограничения"><a class="header" href="#23-Ограничения"><strong>2.3 Ограничения</strong></a></h3>
 <ul>
 <li>GPS недоступен.</li>
