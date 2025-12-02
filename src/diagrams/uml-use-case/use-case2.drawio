@@ -1,23 +1,185 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
   <diagram name="Страница — 1" id="YU2YTrIe7qxF8VquBASz">
-    <mxGraphModel dx="3443" dy="2002" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2357" dy="890" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Z8uOh6YOmIA0qMgNis5e-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="246" y="600" width="230" height="170" as="geometry" />
+        <mxCell id="C20EFqaIqojSVLzrIdEF-1" value="&lt;div style=&quot;color: #cccccc;background-color: #1f1f1f;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 20px;line-height: 27px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;2)&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt; Трансляция обработанного нейросетью видеопотока на наземную станцию при помощи WebRTC&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-510" y="220" width="560" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Z8uOh6YOmIA0qMgNis5e-3" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z8uOh6YOmIA0qMgNis5e-11" target="Z8uOh6YOmIA0qMgNis5e-12">
+        <mxCell id="C20EFqaIqojSVLzrIdEF-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="84" y="610" width="220" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="C20EFqaIqojSVLzrIdEF-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="84" y="380" width="220" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="C20EFqaIqojSVLzrIdEF-4" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C20EFqaIqojSVLzrIdEF-12" target="C20EFqaIqojSVLzrIdEF-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Z8uOh6YOmIA0qMgNis5e-11" value="Оператор наземной станции" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="546" y="662.5" width="35" height="70" as="geometry" />
+        <mxCell id="C20EFqaIqojSVLzrIdEF-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C20EFqaIqojSVLzrIdEF-12" target="C20EFqaIqojSVLzrIdEF-22">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Z8uOh6YOmIA0qMgNis5e-12" value="Просмотр видеотрансляции с камеры дрона" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="296" y="660" width="130" height="75" as="geometry" />
+        <mxCell id="C20EFqaIqojSVLzrIdEF-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C20EFqaIqojSVLzrIdEF-12" target="C20EFqaIqojSVLzrIdEF-116">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Z8uOh6YOmIA0qMgNis5e-52" value="Дрон-охранник" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="366" y="600" width="120" height="30" as="geometry" />
+        <mxCell id="C20EFqaIqojSVLzrIdEF-12" value="Оператор наземной станции" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="444" y="535" width="35" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="C20EFqaIqojSVLzrIdEF-13" value="Просмотр видеотрансляции с камеры дрона" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="124" y="650" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="C20EFqaIqojSVLzrIdEF-22" value="Просмотр результатов миссии" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="129" y="437.5" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="C20EFqaIqojSVLzrIdEF-53" value="Дрон-охранник" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="84" y="610" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C20EFqaIqojSVLzrIdEF-54" value="Дрон-разведчик" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="380" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C20EFqaIqojSVLzrIdEF-55" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="610" width="380" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="C20EFqaIqojSVLzrIdEF-56" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="320" width="380" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="C20EFqaIqojSVLzrIdEF-57" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C20EFqaIqojSVLzrIdEF-64" target="C20EFqaIqojSVLzrIdEF-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C20EFqaIqojSVLzrIdEF-60" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C20EFqaIqojSVLzrIdEF-64" target="C20EFqaIqojSVLzrIdEF-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C20EFqaIqojSVLzrIdEF-64" value="Дрон" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-510" y="520" width="35" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="C20EFqaIqojSVLzrIdEF-65" value="Трансляция видео с камеры дрона в локальной сети" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="650" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="C20EFqaIqojSVLzrIdEF-73" value="Определение положения при помощи Optical Flow" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="370" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="C20EFqaIqojSVLzrIdEF-74" value="Анализ видеопотока при помощи машинного зрения" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="485" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="C20EFqaIqojSVLzrIdEF-104" value="Дрон-охранник" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="610" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C20EFqaIqojSVLzrIdEF-105" value="Дрон-разведчик" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="320" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C20EFqaIqojSVLzrIdEF-106" value="Сохранение фотографии" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="485" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="C20EFqaIqojSVLzrIdEF-107" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="C20EFqaIqojSVLzrIdEF-74" target="C20EFqaIqojSVLzrIdEF-106">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-237" y="610" as="sourcePoint" />
+            <mxPoint x="-164" y="575" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C20EFqaIqojSVLzrIdEF-108" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="C20EFqaIqojSVLzrIdEF-107">
+          <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C20EFqaIqojSVLzrIdEF-109" value="Сохранение координат" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="370" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="C20EFqaIqojSVLzrIdEF-110" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="C20EFqaIqojSVLzrIdEF-74" target="C20EFqaIqojSVLzrIdEF-109">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-210" y="575" as="sourcePoint" />
+            <mxPoint x="-137" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C20EFqaIqojSVLzrIdEF-111" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="C20EFqaIqojSVLzrIdEF-110">
+          <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C20EFqaIqojSVLzrIdEF-112" value="Анализ видеопотока при помощи машинного зрения" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="750" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="C20EFqaIqojSVLzrIdEF-113" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="C20EFqaIqojSVLzrIdEF-112" target="C20EFqaIqojSVLzrIdEF-115">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-94" y="1120" as="sourcePoint" />
+            <mxPoint x="-100" y="1252" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C20EFqaIqojSVLzrIdEF-114" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="C20EFqaIqojSVLzrIdEF-113">
+          <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C20EFqaIqojSVLzrIdEF-115" value="Отправка оповещения на НС при обнаружении" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-135" y="750" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="C20EFqaIqojSVLzrIdEF-116" value="Получение оповещений об обнаруженных объектах" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="124" y="750" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="C20EFqaIqojSVLzrIdEF-117" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="C20EFqaIqojSVLzrIdEF-73" target="C20EFqaIqojSVLzrIdEF-109">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-250" y="837" as="sourcePoint" />
+            <mxPoint x="-126" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C20EFqaIqojSVLzrIdEF-118" value="&quot;extend&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="C20EFqaIqojSVLzrIdEF-117">
+          <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C20EFqaIqojSVLzrIdEF-120" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="C20EFqaIqojSVLzrIdEF-112" target="C20EFqaIqojSVLzrIdEF-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-250" y="920" as="sourcePoint" />
+            <mxPoint x="-250" y="983" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C20EFqaIqojSVLzrIdEF-121" value="&quot;extend&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="C20EFqaIqojSVLzrIdEF-120">
+          <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C20EFqaIqojSVLzrIdEF-122" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="C20EFqaIqojSVLzrIdEF-115" target="C20EFqaIqojSVLzrIdEF-116">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="30" y="840" as="sourcePoint" />
+            <mxPoint x="30" y="903" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C20EFqaIqojSVLzrIdEF-123" value="&quot;extend&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="C20EFqaIqojSVLzrIdEF-122">
+          <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C20EFqaIqojSVLzrIdEF-124" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="C20EFqaIqojSVLzrIdEF-65" target="C20EFqaIqojSVLzrIdEF-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="630" as="sourcePoint" />
+            <mxPoint x="50" y="693" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C20EFqaIqojSVLzrIdEF-125" value="&quot;extend&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="C20EFqaIqojSVLzrIdEF-124">
+          <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C20EFqaIqojSVLzrIdEF-126" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="C20EFqaIqojSVLzrIdEF-109" target="C20EFqaIqojSVLzrIdEF-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="360" as="sourcePoint" />
+            <mxPoint x="60" y="423" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C20EFqaIqojSVLzrIdEF-127" value="&quot;extend&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="C20EFqaIqojSVLzrIdEF-126">
+          <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C20EFqaIqojSVLzrIdEF-128" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="C20EFqaIqojSVLzrIdEF-106" target="C20EFqaIqojSVLzrIdEF-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="500" as="sourcePoint" />
+            <mxPoint x="40" y="563" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C20EFqaIqojSVLzrIdEF-129" value="&quot;extend&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="C20EFqaIqojSVLzrIdEF-128">
+          <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
