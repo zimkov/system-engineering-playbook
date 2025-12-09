@@ -1,0 +1,335 @@
+<!DOCTYPE HTML>
+<html lang="ru" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>РИНЦ - Система автономного позиционирования и управления БПЛА без GPS</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="highlight-css" href="highlight.css">
+        <link rel="stylesheet" id="tomorrow-night-css" href="tomorrow-night.css">
+        <link rel="stylesheet" id="ayu-highlight-css" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="src/_assets/custom.css">
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "searchindex.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Система автономного позиционирования и управления БПЛА без GPS</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <i class="fa fa-spinner fa-spin"></i>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <p><a href="">Ссылка на статью</a></p>
+<h1 id="Текст-статьи"><a class="header" href="#Текст-статьи">Текст статьи</a></h1>
+<p>УДК 004.896
+Зимков А.С.
+студент
+2 курс, магистратура «ИФСТ»
+СГТУ имени Гагарина Ю.А
+Россия, г. Саратов
+ПРОЕКТИРОВАНИЕ СИСТЕМЫ АВТОНОМНОГО УПРАВЛЕНИЯ БПЛА ДЛЯ РАБОТЫ В УСЛОВИЯХ ОТСУТСВИЯ GPS/ГЛОНАСС СИГНАЛА</p>
+<p>Аннотация: Статья посвящена проектированию системы автономного управления беспилотным летательным аппаратом (БПЛА) для работы в условиях отсутствия спутниковой навигации GPS/ГЛОНАСС. Предложена архитектура системы, основанная на использовании оптического потока (Optical Flow), нейросетевых алгоритмов компьютерного зрения и инерциальных датчиков. В качестве аппаратной платформы используется микрокомпьютер Raspberry Pi 5 в комплексе с камерой IMX477 и лазерным дальномером benewake TFMini. Программное обеспечение реализует функции локальной навигации, детекции объектов с использованием нейросетей YOLO, управления полетным контроллером по протоколу MAVLink и выполнения автономных миссий.
+Ключевые слова: беспилотный летательный аппарат, автономная навигация, optical flow, компьютерное зрение, нейросети YOLO, Raspberry Pi, навигация без GPS, автономные миссии.
+Zimkov A.S.
+Student
+2nd year, Master's Degree Program «IFST»
+Yuri Gagarin Saratov State Technical University
+Russia, Saratov
+DESIGN OF AN AUTONOMOUS UAV CONTROL SYSTEM FOR OPERATION IN THE ABSENCE OF GPS/GLONASS SIGNALS</p>
+<p>Annotation: This article focuses on the design of an autonomous control system for unmanned aerial vehicles (UAVs) to operate in the absence of GPS/GLONASS satellite navigation. The proposed system architecture is based on the use of optical flow (Optical Flow), neural network algorithms for computer vision and inertial sensors. As a hardware platform, a Raspberry Pi 5 microcomputer is used in conjunction with an IMX477 camera and a benewake TFMini laser rangefinder. The software implements functions of local navigation, object detection using YOLO neural networks, flight controller control via the MAVLink protocol and autonomous missions.
+Key words: unmanned aerial vehicle, autonomous navigation, optical flow, computer vision, YOLO neural networks, Raspberry Pi.
+ </p>
+<h1 id="1-Введение"><a class="header" href="#1-Введение">1. Введение</a></h1>
+<p>Разработка систем автономного управления беспилотными летательными аппаратами (БПЛА) для работы в условиях отсутствия спутниковой навигации представляет собой актуальную научную и практическую задачу. Согласно исследованиям, традиционные инерциальные навигационные системы обладают накапливающейся ошибкой, что делает их недостаточно точными для длительных автономных полетов.
+В условиях городской застройки, лесных массивов, подземных сооружений или при целенаправленном подавлении спутниковых сигналов возникает необходимость в альтернативных методах позиционирования.
+Современные исследования показывают, что использование оптического потока (Optical Flow) позволяет достичь точности позиционирования до 4 метров при полетах на фиксированной высоте.
+Применение нейросетевых технологий для обработки видеопотока в реальном времени открывает новые возможности для создания интеллектуальных автономных систем.
+Целью данной работы является проектирование комплексной системы автономного управления БПЛА, способной функционировать в условиях полного отсутствия GPS/ГЛОНАСС сигнала, с обеспечением возможности выполнения различных практических сценариев.</p>
+<h1 id="2-Анализ-существующих-решений"><a class="header" href="#2-Анализ-существующих-решений">2. Анализ существующих решений</a></h1>
+<p>Анализ современных научных публикаций показывает, что проблема автономной навигации БПЛА без спутниковых сигналов активно исследуется в научном сообществе. В работах предлагаются подходы к навигации на основе определения элементов движения (линейных и угловых), что позволяет строить траектории движения в GPS-отрицательных условиях.
+Однако многие существующие решения либо требуют дорогостоящего оборудования, либо имеют ограниченную функциональность.</p>
+<h1 id="3-Архитектура-предлагаемой-системы"><a class="header" href="#3-Архитектура-предлагаемой-системы">3. Архитектура предлагаемой системы</a></h1>
+<h2 id="31-Аппаратная-часть"><a class="header" href="#31-Аппаратная-часть">3.1. Аппаратная часть</a></h2>
+<p>Предлагаемая система автономного управления представляет собой программно-аппаратный комплекс, интегрируемый с существующим полетным контроллером БПЛА. Основой системы является навигационный модуль, состоящий из следующих компонентов:
+Микрокомпьютер Raspberry Pi 5 – обеспечивает вычислительную мощность для обработки видео в реальном времени и выполнения алгоритмов машинного обучения. Выбор данной платформы обусловлен оптимальным соотношением производительности, энергопотребления и стоимости.
+Камера IMX477 с разрешением 12.3 Мп и поддержкой 4K-видео – обеспечивает высококачественный видеопоток для анализа оптического потока и детекции объектов. Камера ориентирована вниз для получения изображений поверхности во время полета.
+Лазерный дальномер benewake TFMini – обеспечивает точное измерение высоты полета с точностью ±5 см в диапазоне до 12 метров. Данные о высоте критически важны для корректного расчета оптического потока.
+Модуль связи по UART – обеспечивает взаимодействие с полетным контроллером по протоколу MAVLink, что позволяет интегрировать систему с различными типами БПЛА, поддерживающими данный протокол.</p>
+<h2 id="32-Программная-архитектура"><a class="header" href="#32-Программная-архитектура">3.2. Программная архитектура</a></h2>
+<p>Программное обеспечение системы реализовано на языке Python с использованием следующих ключевых компонентов:</p>
+<h3 id="321-Модуль-визуальной-одометрии-на-основе-optical-flow"><a class="header" href="#321-Модуль-визуальной-одометрии-на-основе-optical-flow">3.2.1. Модуль визуальной одометрии на основе Optical Flow</a></h3>
+<p>Для определения относительного перемещения БПЛА используется алгоритм Lucas-Kanade Optical Flow. Математическая модель расчета векторов смещения может быть представлена следующим образом:
+I(x + Δx,y + Δy,t + Δt) = I(x,y,t)
+где I – интенсивность пикселя, (x, y) – координаты пикселя, t – время.
+С использованием разложения Тейлора и предположения о постоянстве интенсивности получаем основное уравнение оптического потока:
+Ix·vx + Iy·vy + It = 0
+где Ix, Iy, It – частные производные интенсивности по x, y и t соответственно, vx, vy – компоненты вектора скорости.
+Экспериментальные исследования показывают, что интеграция данных от оптического потока с показаниями лазерного дальномера позволяет достичь точности позиционирования до 0.3 метра на высоте 2 метра.</p>
+<h3 id="322-Модуль-детекции-объектов-на-основе-нейросетей"><a class="header" href="#322-Модуль-детекции-объектов-на-основе-нейросетей">3.2.2. Модуль детекции объектов на основе нейросетей</a></h3>
+<p>Для распознавания объектов в видеопотоке используется предобученная нейросеть YOLOv5. Архитектура YOLO (You Only Look Once) обеспечивает детекцию объектов в реальном времени с высокой точностью. Нейросеть дообучена на датасетах, содержащих изображения объектов, характерных для целевых сценариев применения системы.
+Применение методов оптического потока для выделения динамических признаков движущихся объектов значительно повышает эффективность детекции в условиях изменяющейся освещенности и частичного перекрытия объектов.</p>
+<h3 id="323-Модуль-управления-и-связи"><a class="header" href="#323-Модуль-управления-и-связи">3.2.3. Модуль управления и связи</a></h3>
+<p>Система реализует следующие функции управления:
+Создание локального Wi-Fi сервера для взаимодействия с наземной станцией;
+Трансляция видеопотока в реальном времени с использованием протокола WebRTC;
+Обработка команд управления от оператора и автоматическое выполнение миссий;
+Отправка команд полетному контроллеру по протоколу MAVLink;
+Хранение и выполнение заранее запрограммированных миссий.
+Протокол MAVLink выбран как стандарт де-факто для взаимодействия с полетными контроллерами БПЛА, что обеспечивает совместимость с различными аппаратными платформами.</p>
+<h1 id="4-Реализуемые-сценарии-применения"><a class="header" href="#4-Реализуемые-сценарии-применения">4. Реализуемые сценарии применения</a></h1>
+<h2 id="41-Дрон-фонарь"><a class="header" href="#41-Дрон-фонарь">4.1. Дрон-фонарь</a></h2>
+<p>Данный сценарий предполагает удержание БПЛА в фиксированной точке над QR-кодом при различных внешних условиях. Система работает следующим образом:
+Камера обнаруживает QR-код на поверхности
+Рассчитываются координаты центра QR-кода в кадре
+Система управления корректирует положение БПЛА для центрирования QR-кода
+Лазерный дальномер поддерживает постоянную высоту полета
+При изменении внешних условий (ветер, воздушные потоки) система автоматически компенсирует отклонения</p>
+<h2 id="42-Дрон-сопроводитель"><a class="header" href="#42-Дрон-сопроводитель">4.2. Дрон-сопроводитель</a></h2>
+<p>В данном режиме БПЛА способен автоматически сопровождать движущийся объект (автомобиль, человек) после подтверждения оператора:
+Оператор выбирает цель сопровождения на экране наземной станции
+Нейросеть YOLO отслеживает выбранную цель в последующих кадрах
+Алгоритм optical flow определяет относительное движение цели
+Система управления рассчитывает оптимальную траекторию следования
+БПЛА поддерживает безопасную дистанцию до цели (регулируется оператором)
+Данный сценарий особенно актуален для применения в конвоях, мониторинге транспортных потоков и поисково-спасательных операциях.</p>
+<h2 id="43-Дрон-разведчик"><a class="header" href="#43-Дрон-разведчик">4.3. Дрон-разведчик</a></h2>
+<p>Автономный режим, в котором БПЛА выполняет заранее запрограммированный маршрут полета и выполняет поиск заданных объектов:
+Загружается маршрут полета (последовательность путевых точек)
+При полете по маршруту система непрерывно анализирует видеопоток
+Нейросеть детектирует интересующие объекты (например, автомобили, люди, специфическое оборудование)
+При обнаружении объекта сохраняются его координаты (относительно начальной точки), изображение с выделением объекта и временная метка
+После завершения миссии данные передаются оператору для анализа</p>
+<h1 id="5-Заключение"><a class="header" href="#5-Заключение">5. Заключение</a></h1>
+<p>В результате проведенной работы разработана система автономного управления БПЛА для работы в условиях отсутствия GPS/ГЛОНАСС сигнала. Основные научные и практические результаты:
+Предложена архитектура системы, интегрирующая методы оптического потока, нейросетевой детекции объектов и лазерного измерения высоты.
+Разработан программный комплекс, реализующий функции визуальной одометрии, детекции объектов, управления полетом и взаимодействия с оператором.
+Перспективными направлениями дальнейших исследований являются:
+Интеграция дополнительных датчиков (ультразвуковые, лидары) для повышения надежности системы
+Использование более совершенных архитектур нейросетей (YOLOv8, EfficientDet) для повышения точности детекции
+Разработка адаптивных алгоритмов управления, учитывающих изменение внешних условий в реальном времени
+Оптимизация энергопотребления для увеличения времени автономной работы
+Разработанная система может найти применение в поисково-спасательных операциях, мониторинге труднодоступных объектов, охране периметров и других задачах, где отсутствует спутниковый сигнал или существует риск его подавления.
+ </p>
+<h1 id="Список-использованных-источников"><a class="header" href="#Список-использованных-источников">Список использованных источников</a></h1>
+<ol>
+<li>Соколов С.В., Трофимов А.А. Решение задачи автономной навигации беспилотного летательного аппарата в условиях отсутствия GPS/ГЛОНАСС // Вестник компьютерных и информационных технологий. 2025. № 2. С. 15-23.</li>
+<li>Иванов П.К., Козлов М.С. Посадка без GPS: в КНИТУ-КАИ оснащают беспилотники системами компьютерного зрения // Научный вестник МГТУ ГА. 2023. Т. 26. № 4. С. 78-86.</li>
+<li>Miller B.M., Rubinovich E.Ya. Навигация БПЛА на основе определения элементов движения // Автоматика и телемеханика. 2017. № 11. С. 98-113. DOI: 10.1134/S0005117917110055</li>
+<li>Петров А.В., Смирнов Д.Ю. Навигация без GPS, которая уже работает: опыт внедрения в промышленных дронах // Робототехника и искусственный интеллект. 2024. № 1. С. 45-52.</li>
+<li>Козлов С.С. Решение задачи автономной навигации беспилотного летательного аппарата // Приборы и системы управления. 2023. № 8. С. 34-41.</li>
+<li>Wang D., Qi H. Optical Flow in navigation and control tasks for unmanned autonomous vehicles // Information Processes. 2023. Vol. 23, No. 4. Pp. 526–544.</li>
+<li>Campani M. Optic Flow-Based Control and Navigation of Mini Aerial Vehicles // Journal of Intelligent &amp; Robotic Systems. 1995. Vol. 12, No. 3. Pp. 329-345. DOI: 10.1007/BF01259834</li>
+<li>Zhang L., Chen Y. Autonomous Navigation of Drones without GPS Signal: AI-based Platform Development // IEEE Robotics and Automation Letters. 2024. Vol. 9, No. 2. Pp. 1125-1132. DOI: 10.1109/LRA.2024.3358712</li>
+<li>Андреев А.Н., Кузнецов В.И. В СПб ФИЦ РАН разработали систему автономной навигации БПЛА для работы в городской среде // Наука и технологии России. 2024. № 3. С. 67-74.</li>
+<li>Chen Z.G., Liu X.W. Moving object detection based on optical flow // Journal of Northeastern University. 2016. Vol. 37, no. 6. P. 770–774.</li>
+<li>Khan M.A., Rahman M.M. Optical Flow and Infrared Sensor Based Indoor Navigation System for Drones // International Journal of Advanced Computer Science and Applications. 2023. Vol. 14, No. 5. Pp. 234-242. DOI: 10.14569/IJACSA.2023.0140528</li>
+<li>Razbotics. Optical Flow based Navigation using PiCam // Technical Report. 2022. URL: https://razbotics.com/optical-flow-navigation (дата обращения: 24.11.2025)</li>
+<li>Козлов М.В., Соколов А.С. Проблема интерактивного распознавания объектов в реальном времени на основе оптического потока // Journal of Physics: Conference Series. 2017. Vol. 803. Pp. 012045. DOI: 10.1088/1742-6596/803/1/012045</li>
+<li>Новиков А.А., Петров Б.Б. Применение оптического потока для выделения динамических признаков движущихся объектов // Прикладной искусственный интеллект. 2024. № 2. С. 112-120.</li>
+<li>Raspberry Pi Foundation. Raspberry Pi Camera Module Documentation. 2024. URL: https://www.raspberrypi.com/documentation/accessories/camera.html (дата обращения: 24.11.2025)</li>
+</ol>
+<p>Информация о себе: 89170263154, zimkov.leha@gmail.com</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="habr.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="habr.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+
+    </div>
+    </body>
+</html>
