@@ -7,3 +7,5 @@
 - [BPMN](./bpmn.md)
 - [ADR](./adr.md)
 - [Swagger](./swagger.md)
+- [Habr](./habr.md)
+- [РИНЦ](./rinc.md)

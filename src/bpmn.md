@@ -12,6 +12,4 @@
 
 @drawio{https://github.com/zimkov/system-engineering-playbook/blob/main/src/diagrams/bpmn/bpmn3.drawio}
 
-## 4) Создание и выполнение полетных заданий в режиме Дрон-разведчик
 
-@drawio{https://github.com/zimkov/system-engineering-playbook/blob/main/src/diagrams/bpmn/bpmn4.drawio}
