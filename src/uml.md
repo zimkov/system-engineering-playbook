@@ -37,3 +37,22 @@
 ### 4) Создание и выполнение полетных заданий в режиме Дрон-разведчик
 
 @drawio{https://github.com/zimkov/system-engineering-playbook/blob/main/src/diagrams/uml-activity/activity4.drawio}
+
+
+## Диаграммы последовательностей
+
+### 1) Определение координат при помощи алгоритма Optical Flow
+
+@drawio{https://github.com/zimkov/system-engineering-playbook/blob/main/src/diagrams/uml-sequence/sequence_1.drawio}
+
+### 2) Трансляция обработанного нейросетью видеопотока на наземную станцию при помощи WebRTC
+
+@drawio{https://github.com/zimkov/system-engineering-playbook/blob/main/src/diagrams/uml-sequence/sequence_2.drawio}
+
+### 3) Управление дроном в режиме Дрон-охранник
+
+@drawio{https://github.com/zimkov/system-engineering-playbook/blob/main/src/diagrams/uml-sequence/sequence_3.drawio}
+
+### 4) Создание и выполнение полетных заданий в режиме Дрон-разведчик
+
+@drawio{https://github.com/zimkov/system-engineering-playbook/blob/main/src/diagrams/uml-sequence/sequence_4.drawio}
