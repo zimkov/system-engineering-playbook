@@ -1,0 +1,95 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram name="Страница — 1" id="g-rHc028RU8QHjSsRBA2">
+    <mxGraphModel dx="1425" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="y9HbhQiRMbz5zYBSt-yd-1" value=":Камера IMX477" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="210" y="180" width="100" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="y9HbhQiRMbz5zYBSt-yd-8" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="y9HbhQiRMbz5zYBSt-yd-1">
+          <mxGeometry x="45" y="100" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="y9HbhQiRMbz5zYBSt-yd-2" value="&lt;div&gt;1. Определение координат при помощи алгоритма Optical Flow&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="105" y="50" width="640" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y9HbhQiRMbz5zYBSt-yd-3" value=":Полетный контроллер" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="641" y="180" width="150" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="y9HbhQiRMbz5zYBSt-yd-4" value=":Модуль автопилота" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="466" y="180" width="130" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="y9HbhQiRMbz5zYBSt-yd-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="y9HbhQiRMbz5zYBSt-yd-5" target="y9HbhQiRMbz5zYBSt-yd-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="620" />
+              <mxPoint x="320" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y9HbhQiRMbz5zYBSt-yd-23" value="Отправка координат" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="y9HbhQiRMbz5zYBSt-yd-21">
+          <mxGeometry x="0.0663" y="-3" relative="1" as="geometry">
+            <mxPoint y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y9HbhQiRMbz5zYBSt-yd-5" value=":Модуль Optical flow" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="36" y="180" width="140" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="y9HbhQiRMbz5zYBSt-yd-18" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="y9HbhQiRMbz5zYBSt-yd-5">
+          <mxGeometry x="65" y="370" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y9HbhQiRMbz5zYBSt-yd-19" value="Расчет смещения" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="y9HbhQiRMbz5zYBSt-yd-18" parent="y9HbhQiRMbz5zYBSt-yd-5" source="y9HbhQiRMbz5zYBSt-yd-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="119" y="375" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="149" y="340" />
+              <mxPoint x="149" y="390" />
+              <mxPoint x="70" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y9HbhQiRMbz5zYBSt-yd-9" value="Запрос кадра" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="y9HbhQiRMbz5zYBSt-yd-8" parent="1" source="y9HbhQiRMbz5zYBSt-yd-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="136" y="275" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y9HbhQiRMbz5zYBSt-yd-10" value="Возврат кадра" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="y9HbhQiRMbz5zYBSt-yd-8" parent="1" target="y9HbhQiRMbz5zYBSt-yd-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="136" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y9HbhQiRMbz5zYBSt-yd-11" value=":Дальномер" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="326" y="180" width="100" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="y9HbhQiRMbz5zYBSt-yd-12" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="y9HbhQiRMbz5zYBSt-yd-11">
+          <mxGeometry x="45" y="225" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="y9HbhQiRMbz5zYBSt-yd-13" value="Запрос высоты" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="y9HbhQiRMbz5zYBSt-yd-12" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105.81034482758628" y="410" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y9HbhQiRMbz5zYBSt-yd-14" value="Возврат высоты" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="y9HbhQiRMbz5zYBSt-yd-12" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105.81034482758628" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y9HbhQiRMbz5zYBSt-yd-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="y9HbhQiRMbz5zYBSt-yd-5" target="y9HbhQiRMbz5zYBSt-yd-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="163.5" y="670" as="sourcePoint" />
+            <mxPoint x="588.5" y="670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="680" />
+              <mxPoint x="430" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y9HbhQiRMbz5zYBSt-yd-24" value="Отправка координат" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="y9HbhQiRMbz5zYBSt-yd-22">
+          <mxGeometry x="-0.0762" y="2" relative="1" as="geometry">
+            <mxPoint x="3" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

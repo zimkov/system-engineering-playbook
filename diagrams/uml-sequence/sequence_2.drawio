@@ -1,0 +1,51 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram name="Страница — 1" id="N_p9nJq9qCG3izu6l-U-">
+    <mxGraphModel dx="1425" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4hN0TDrQXkkKE-QmhINE-1" value=":Камера IMX477" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="400" y="200" width="140" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="4hN0TDrQXkkKE-QmhINE-12" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="4hN0TDrQXkkKE-QmhINE-1">
+          <mxGeometry x="65" y="140" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4hN0TDrQXkkKE-QmhINE-2" value="&lt;div&gt;2. Трансляция обработанного нейросетью видеопотока&amp;nbsp;&lt;/div&gt;&lt;div&gt;на наземную станцию при помощи WebRTC&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="129" y="40" width="570" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4hN0TDrQXkkKE-QmhINE-3" value=":Нейросеть Yolo" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="699" y="310" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="4hN0TDrQXkkKE-QmhINE-5" value=":Наземная станция" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="30" y="200" width="130" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="4hN0TDrQXkkKE-QmhINE-6" value=":Модуль WebRTC" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="220" y="200" width="120" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="4hN0TDrQXkkKE-QmhINE-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="4hN0TDrQXkkKE-QmhINE-6">
+          <mxGeometry x="55" y="90" width="10" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="4hN0TDrQXkkKE-QmhINE-8" value="Запрос кадра" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="4hN0TDrQXkkKE-QmhINE-7" parent="1" source="4hN0TDrQXkkKE-QmhINE-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="295" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4hN0TDrQXkkKE-QmhINE-9" value="Возврат кадра" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="4hN0TDrQXkkKE-QmhINE-7" parent="1" target="4hN0TDrQXkkKE-QmhINE-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="365" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4hN0TDrQXkkKE-QmhINE-13" value="Запрос кадра" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="4hN0TDrQXkkKE-QmhINE-12" parent="1" source="4hN0TDrQXkkKE-QmhINE-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="345" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4hN0TDrQXkkKE-QmhINE-14" value="Возврат кадра" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="4hN0TDrQXkkKE-QmhINE-12" parent="1" target="4hN0TDrQXkkKE-QmhINE-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="415" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

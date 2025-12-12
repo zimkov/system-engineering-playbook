@@ -1,211 +1,211 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
   <diagram name="Страница — 1" id="f3A2959xxHRXaVCh03Re">
-    <mxGraphModel dx="2175" dy="1264" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1722" dy="1001" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="910" y="200" width="430" height="490" as="geometry" />
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yrv_5SrtkpxnSwUD_Zux-11" target="yrv_5SrtkpxnSwUD_Zux-15">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yrv_5SrtkpxnSwUD_Zux-11" target="yrv_5SrtkpxnSwUD_Zux-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yrv_5SrtkpxnSwUD_Zux-11" target="yrv_5SrtkpxnSwUD_Zux-20">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yrv_5SrtkpxnSwUD_Zux-11" target="yrv_5SrtkpxnSwUD_Zux-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yrv_5SrtkpxnSwUD_Zux-11" target="yrv_5SrtkpxnSwUD_Zux-21">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yrv_5SrtkpxnSwUD_Zux-11" target="yrv_5SrtkpxnSwUD_Zux-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-11" value="Оператор наземной станции" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-11" value="Оператор наземной станции" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="1401" y="422.5" width="35" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="yrv_5SrtkpxnSwUD_Zux-15" target="yrv_5SrtkpxnSwUD_Zux-17">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="yrv_5SrtkpxnSwUD_Zux-15" target="yrv_5SrtkpxnSwUD_Zux-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-14" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yrv_5SrtkpxnSwUD_Zux-13">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-14" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="yrv_5SrtkpxnSwUD_Zux-13" vertex="1" connectable="0">
           <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-15" value="Взаимодействие с картой местности" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-15" value="Взаимодействие с картой местности" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="1150" y="312.5" width="130" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-16" value="Составление маршрута полета дрона" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-16" value="Составление маршрута полета дрона" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="940" y="372.5" width="130" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-17" value="Загрузка карты местности" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-17" value="Загрузка карты местности" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="940" y="262.5" width="130" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="yrv_5SrtkpxnSwUD_Zux-15" target="yrv_5SrtkpxnSwUD_Zux-16">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="yrv_5SrtkpxnSwUD_Zux-15" target="yrv_5SrtkpxnSwUD_Zux-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1231" y="440" as="sourcePoint" />
             <mxPoint x="1236" y="375" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-19" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yrv_5SrtkpxnSwUD_Zux-18">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-19" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="yrv_5SrtkpxnSwUD_Zux-18" vertex="1" connectable="0">
           <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-20" value="Запуск миссии" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-20" value="Запуск миссии" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="1150" y="462.5" width="130" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-21" value="Просмотр результатов миссии" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-21" value="Просмотр результатов миссии" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="1150" y="557.5" width="130" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-53" value="Дрон-разведчик" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-53" value="Дрон-разведчик" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="910" y="200" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-55" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-55" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="310" y="200" width="519" height="490" as="geometry" />
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-57" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yrv_5SrtkpxnSwUD_Zux-63" target="yrv_5SrtkpxnSwUD_Zux-67">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-57" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yrv_5SrtkpxnSwUD_Zux-63" target="yrv_5SrtkpxnSwUD_Zux-67" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-63" value="Дрон" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-63" value="Дрон" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="230" y="422.5" width="35" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-65" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="yrv_5SrtkpxnSwUD_Zux-67" target="yrv_5SrtkpxnSwUD_Zux-69">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-65" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="yrv_5SrtkpxnSwUD_Zux-67" target="yrv_5SrtkpxnSwUD_Zux-69" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-66" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yrv_5SrtkpxnSwUD_Zux-65">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-66" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="yrv_5SrtkpxnSwUD_Zux-65" vertex="1" connectable="0">
           <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-67" value="Полет по заданому маршруту" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-67" value="Полет по заданому маршруту" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="490" y="420" width="130" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-68" value="Полет по точкам на карте" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-68" value="Полет по точкам на карте" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="640" y="262.5" width="130" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-69" value="Облет препятствий с возвращением на линию маршрута" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-69" value="Облет препятствий с возвращением на линию маршрута" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="330" y="282.5" width="130" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-70" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="yrv_5SrtkpxnSwUD_Zux-67" target="yrv_5SrtkpxnSwUD_Zux-68">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-70" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="yrv_5SrtkpxnSwUD_Zux-67" target="yrv_5SrtkpxnSwUD_Zux-68" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="660" y="440" as="sourcePoint" />
             <mxPoint x="665" y="375" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-71" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yrv_5SrtkpxnSwUD_Zux-70">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-71" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="yrv_5SrtkpxnSwUD_Zux-70" vertex="1" connectable="0">
           <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-72" value="Определение положения при помощи Optical Flow" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-72" value="Определение положения при помощи Optical Flow" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="330" y="590" width="130" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-73" value="Анализ видеопотока при помощи машинного зрения" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-73" value="Анализ видеопотока при помощи машинного зрения" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="490" y="592.5" width="130" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-104" value="Дрон-разведчик" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-104" value="Дрон-разведчик" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="310" y="200" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-105" value="Сохранение фотографии" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-105" value="Сохранение фотографии" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="689" y="592.5" width="130" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-106" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="yrv_5SrtkpxnSwUD_Zux-73" target="yrv_5SrtkpxnSwUD_Zux-105">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-106" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="yrv_5SrtkpxnSwUD_Zux-73" target="yrv_5SrtkpxnSwUD_Zux-105" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="592" y="620" as="sourcePoint" />
             <mxPoint x="665" y="585" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-107" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yrv_5SrtkpxnSwUD_Zux-106">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-107" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="yrv_5SrtkpxnSwUD_Zux-106" vertex="1" connectable="0">
           <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-108" value="Сохранение координат" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-108" value="Сохранение координат" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="689" y="497.5" width="130" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-109" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="yrv_5SrtkpxnSwUD_Zux-73" target="yrv_5SrtkpxnSwUD_Zux-108">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-109" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="yrv_5SrtkpxnSwUD_Zux-73" target="yrv_5SrtkpxnSwUD_Zux-108" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="619" y="585" as="sourcePoint" />
             <mxPoint x="692" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-110" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yrv_5SrtkpxnSwUD_Zux-109">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-110" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="yrv_5SrtkpxnSwUD_Zux-109" vertex="1" connectable="0">
           <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-116" value="&lt;div style=&quot;color: #cccccc;background-color: #1f1f1f;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 20px;line-height: 27px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;4)&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt; Создание и выполнение полетных заданий в режиме Дрон-разведчик&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-116" value="&lt;div style=&quot;color: #cccccc;background-color: #1f1f1f;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 20px;line-height: 27px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;4)&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt; Создание и выполнение полетных заданий в режиме Дрон-разведчик&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="474" y="80" width="560" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-119" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="yrv_5SrtkpxnSwUD_Zux-72" target="yrv_5SrtkpxnSwUD_Zux-67">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-119" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="yrv_5SrtkpxnSwUD_Zux-72" target="yrv_5SrtkpxnSwUD_Zux-67" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="730" y="784.5" as="sourcePoint" />
             <mxPoint x="819" y="732.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-120" value="&quot;extend&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yrv_5SrtkpxnSwUD_Zux-119">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-120" value="&quot;extend&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="yrv_5SrtkpxnSwUD_Zux-119" vertex="1" connectable="0">
           <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-124" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="yrv_5SrtkpxnSwUD_Zux-73" target="yrv_5SrtkpxnSwUD_Zux-67">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-124" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="yrv_5SrtkpxnSwUD_Zux-73" target="yrv_5SrtkpxnSwUD_Zux-67" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="570" y="642.5" as="sourcePoint" />
             <mxPoint x="570" y="512.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-125" value="&quot;extend&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yrv_5SrtkpxnSwUD_Zux-124">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-125" value="&quot;extend&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="yrv_5SrtkpxnSwUD_Zux-124" vertex="1" connectable="0">
           <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-126" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="yrv_5SrtkpxnSwUD_Zux-67" target="yrv_5SrtkpxnSwUD_Zux-16">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-126" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="yrv_5SrtkpxnSwUD_Zux-67" target="yrv_5SrtkpxnSwUD_Zux-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="860" y="736.5" as="sourcePoint" />
             <mxPoint x="1080" y="732.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-127" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yrv_5SrtkpxnSwUD_Zux-126">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-127" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="yrv_5SrtkpxnSwUD_Zux-126" vertex="1" connectable="0">
           <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-128" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="yrv_5SrtkpxnSwUD_Zux-67" target="yrv_5SrtkpxnSwUD_Zux-17">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-128" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="yrv_5SrtkpxnSwUD_Zux-67" target="yrv_5SrtkpxnSwUD_Zux-17" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="860" y="676.5" as="sourcePoint" />
             <mxPoint x="870" y="312.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-129" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yrv_5SrtkpxnSwUD_Zux-128">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-129" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="yrv_5SrtkpxnSwUD_Zux-128" vertex="1" connectable="0">
           <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-130" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="yrv_5SrtkpxnSwUD_Zux-67" target="yrv_5SrtkpxnSwUD_Zux-20">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-130" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="yrv_5SrtkpxnSwUD_Zux-67" target="yrv_5SrtkpxnSwUD_Zux-20" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="890" y="756.5" as="sourcePoint" />
             <mxPoint x="1110" y="752.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-131" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yrv_5SrtkpxnSwUD_Zux-130">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-131" value="&quot;include&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="yrv_5SrtkpxnSwUD_Zux-130" vertex="1" connectable="0">
           <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-132" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="yrv_5SrtkpxnSwUD_Zux-105" target="yrv_5SrtkpxnSwUD_Zux-21">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-132" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="yrv_5SrtkpxnSwUD_Zux-21" target="yrv_5SrtkpxnSwUD_Zux-105" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="870" y="839.5" as="sourcePoint" />
-            <mxPoint x="870" y="732.5" as="targetPoint" />
+            <mxPoint x="930" y="760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-133" value="&quot;extend&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yrv_5SrtkpxnSwUD_Zux-132">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-133" value="&quot;extend&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="yrv_5SrtkpxnSwUD_Zux-132" vertex="1" connectable="0">
           <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-134" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="yrv_5SrtkpxnSwUD_Zux-108" target="yrv_5SrtkpxnSwUD_Zux-21">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-134" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="yrv_5SrtkpxnSwUD_Zux-21" target="yrv_5SrtkpxnSwUD_Zux-108" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="880" y="819.5" as="sourcePoint" />
-            <mxPoint x="880" y="712.5" as="targetPoint" />
+            <mxPoint x="860" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yrv_5SrtkpxnSwUD_Zux-135" value="&quot;extend&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yrv_5SrtkpxnSwUD_Zux-134">
+        <mxCell id="yrv_5SrtkpxnSwUD_Zux-135" value="&quot;extend&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="yrv_5SrtkpxnSwUD_Zux-134" vertex="1" connectable="0">
           <mxGeometry x="-0.0906" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
