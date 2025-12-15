@@ -9,4 +9,4 @@
 - [ADR](./adr.md)
 - [Swagger](./swagger.md)
 - [РИНЦ](./rinc.md)
-- [Habr](./habr.md)
+- [vc.ru](./habr.md)
