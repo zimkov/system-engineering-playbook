@@ -1,11 +1,46 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
   <diagram name="Страница — 1" id="BUiVIT3JoCrY24UXiE34">
-    <mxGraphModel dx="2066" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1722" dy="1001" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="kaI-NeGCybxFEk-0fGvP-1" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="360" y="460" width="100" height="300" as="geometry" />
+        <mxCell id="kaI-NeGCybxFEk-0fGvP-1" value=":Наземная станция" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="124" y="260" width="140" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="cnFPV-qdpRyL08y5qHYy-1" value="&lt;div&gt;3. Управление дроном в режиме Дрон-охранник&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="169" y="130" width="490" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cnFPV-qdpRyL08y5qHYy-2" value=":Модуль автопилота" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="354" y="260" width="140" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="cnFPV-qdpRyL08y5qHYy-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="cnFPV-qdpRyL08y5qHYy-2">
+          <mxGeometry x="65" y="120" width="10" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="cnFPV-qdpRyL08y5qHYy-3" value=":Полетный контроллер" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="564" y="260" width="140" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="cnFPV-qdpRyL08y5qHYy-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="cnFPV-qdpRyL08y5qHYy-3">
+          <mxGeometry x="65" y="170" width="10" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="cnFPV-qdpRyL08y5qHYy-5" value="Запрос на выполнение команды" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="cnFPV-qdpRyL08y5qHYy-4" parent="1" source="kaI-NeGCybxFEk-0fGvP-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="244" y="385" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnFPV-qdpRyL08y5qHYy-6" value="Результат выполнения команды" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="cnFPV-qdpRyL08y5qHYy-4" parent="1" target="kaI-NeGCybxFEk-0fGvP-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="244" y="455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnFPV-qdpRyL08y5qHYy-8" value="Отправка команды MAVLink" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="cnFPV-qdpRyL08y5qHYy-7" parent="1" source="cnFPV-qdpRyL08y5qHYy-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="494" y="435" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnFPV-qdpRyL08y5qHYy-9" value="Результат выполнения команды" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="cnFPV-qdpRyL08y5qHYy-7" parent="1" target="cnFPV-qdpRyL08y5qHYy-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="494" y="505" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
